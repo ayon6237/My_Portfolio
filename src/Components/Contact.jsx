@@ -45,7 +45,7 @@ const Contact = () => {
 
       <div className="contact-info">
     <p>Email: ayon6237@email.com</p>
-    <p>GitHub: <a target="_blank" href="http://github.com/ayon6237">github.com/ayon6237</a></p>
+    <p>GitHub: <a target="_blank" href="http://github.com/ayon6237" rel="noreferrer">github.com/ayon6237</a></p>
   </div>
     </section>
   );
