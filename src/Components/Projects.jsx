@@ -16,6 +16,15 @@ const Projects = () => {
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ayon6237/CRUD_app_react_reduxToolkit">GitHub</a>
       </div>
     </div>
+
+    <div className="project-card">
+      <h3>DEVCONF Website using just HTML and CSS</h3>
+      <p>Just HTML ans CSS based web app</p>
+      <div className="project-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://ayon6237.github.io/PH-assignment1-Repo/">Live</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ayon6237/PH-assignment1-Repo">GitHub</a>
+      </div>
+    </div>
     
  
 
