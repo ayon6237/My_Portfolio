@@ -18,6 +18,15 @@ const Projects = () => {
     </div>
 
     <div className="project-card">
+      <h3>Notes App using react</h3>
+      <p>Just use useState,useEffect,useReducer and useContext hooks</p>
+      <div className="project-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://ayon6237.github.io/react-notes-app/">Live</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ayon6237/react-notes-app">GitHub</a>
+      </div>
+    </div>
+
+    <div className="project-card">
       <h3>DEVCONF Website using just HTML5 and CSS</h3>
       <p>Just HTML5 ans CSS based web app</p>
       <div className="project-links">
