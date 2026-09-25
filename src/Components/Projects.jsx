@@ -8,6 +8,15 @@ const Projects = () => {
 
   <div className="projects-container">
 
+        <div className="project-card">
+      <h3>Fit-Log workout app</h3>
+      <p>NextJS,Tailwind using</p>
+      <div className="project-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://fit-log-omega-two.vercel.app/">Live</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ayon6237/Fit-Log">GitHub</a>
+      </div>
+    </div>
+
     <div className="project-card">
       <h3>CRUD application using React & React-Redux</h3>
       <p>React + Redux based CRUD app</p>
