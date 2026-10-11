@@ -8,6 +8,16 @@ const Projects = () => {
 
   <div className="projects-container">
 
+
+    <div className="project-card">
+      <h3>Bajar-Dor web app</h3>
+      <p>NextJS,Tailwind,BetterAuth using</p>
+      <div className="project-links">
+        <a target="_blank" rel="noopener noreferrer" href="https://bajar-dor-jade.vercel.app/">Live</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ayon6237/Bajar-dor">GitHub</a>
+      </div>
+    </div>
+
         <div className="project-card">
       <h3>Fit-Log workout app</h3>
       <p>NextJS,Tailwind using</p>
