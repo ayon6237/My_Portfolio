@@ -15,6 +15,13 @@ const Skills = () => {
       </div>
     </div>
 
+     <div className="skill">
+      <span>NextJS</span>
+      <div className="progress-bar">
+        <div className="progress" style={{ width: "80%" }}></div>
+      </div>
+    </div>
+
     <div className="skill">
       <span>Redux</span>
       <div className="progress-bar">
