@@ -8,6 +8,8 @@
   align-items: center;
   gap: clamp(18px, 3vw, 40px);
 
+  font-family: "Open Sans", sans-serif;
+
   width: 100%;
   box-sizing: border-box;
   padding: 18px clamp(16px, 4vw, 40px);
