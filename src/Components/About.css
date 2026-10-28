@@ -1,0 +1,417 @@
+
+/* ========================================
+   ABOUT SECTION
+======================================== */
+
+.about-section {
+  position: relative;
+  padding: 100px 24px;
+  overflow: hidden;
+  color: #f9fafb;
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(59, 130, 246, 0.08),
+      transparent 32%
+    ),
+    linear-gradient(135deg, #0b1120, #111827 55%, #0b1120);
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   SECTION HEADING
+======================================== */
+
+.about-heading {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.about-label {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 8px 15px;
+  border: 1px solid rgba(96, 165, 250, 0.3);
+  border-radius: 30px;
+  background: rgba(59, 130, 246, 0.08);
+  color: #93c5fd;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-heading h2 {
+  margin: 0 0 16px;
+  color: #f9fafb;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
+.about-heading h2 span {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-heading > p {
+  max-width: 580px;
+  margin: 0 auto;
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* ========================================
+   MAIN CONTENT
+======================================== */
+
+.about-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: start;
+  gap: 55px;
+}
+
+.about-text {
+  min-width: 0;
+}
+
+.about-text h3 {
+  margin: 0 0 12px;
+  color: #f9fafb;
+  font-size: clamp(1.65rem, 3vw, 2.2rem);
+  line-height: 1.4;
+  font-weight: 750;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about-section {
+  scroll-margin-top: 100px;
+}
+
+
+
+
+
+.about-name {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text h4 {
+  margin: 0 0 24px;
+  color: #93c5fd;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.about-text > p {
+  margin: 0 0 18px;
+  color: #cbd5e1;
+  font-size: 0.98rem;
+  line-height: 1.95;
+  overflow-wrap: anywhere;
+}
+
+/* ========================================
+   PERSONAL PHILOSOPHY
+======================================== */
+
+.about-quote {
+  position: relative;
+  margin-top: 30px;
+  padding: 22px 24px;
+  border-left: 3px solid #60a5fa;
+  border-radius: 0 12px 12px 0;
+  background: rgba(59, 130, 246, 0.07);
+}
+
+.quote-mark {
+  display: block;
+  margin-bottom: 2px;
+  color: #60a5fa;
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 0.9;
+}
+
+.about-quote p {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 0.98rem;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+/* ========================================
+   HIGHLIGHT CARDS
+======================================== */
+
+.about-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.about-card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 25px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.035);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(96, 165, 250, 0.45);
+  background: rgba(59, 130, 246, 0.06);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.about-card-icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  border-radius: 14px;
+  background: rgba(59, 130, 246, 0.1);
+  font-size: 1.6rem;
+}
+
+.about-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-card-number {
+  display: inline-block;
+  margin-bottom: 7px;
+  color: #60a5fa;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-card-content h3 {
+  margin: 0 0 10px;
+  color: #f1f5f9;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.about-card-content p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.92rem;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+}
+
+/* ========================================
+   BOTTOM STATEMENT
+======================================== */
+
+.about-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 65px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+  text-align: center;
+}
+
+.about-bottom-dot {
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 12px rgba(74, 222, 128, 0.5);
+}
+
+.about-bottom p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media screen and (max-width: 950px) {
+  .about-section {
+    padding: 80px 24px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-text {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .about-highlights {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .about-heading {
+    margin-bottom: 45px;
+  }
+
+  .about-bottom {
+    margin-top: 45px;
+  }
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 65px 18px;
+  }
+
+  .about-heading {
+    margin-bottom: 35px;
+  }
+
+  .about-heading h2 {
+    letter-spacing: -0.8px;
+  }
+
+  .about-heading > p {
+    font-size: 0.93rem;
+  }
+
+  .about-text h3 {
+    font-size: 1.7rem;
+  }
+
+  .about-text h4 {
+    font-size: 0.93rem;
+  }
+
+  .about-text > p {
+    font-size: 0.94rem;
+    line-height: 1.85;
+  }
+
+  .about-quote {
+    margin-top: 24px;
+    padding: 19px;
+  }
+
+  .about-card {
+    gap: 14px;
+    padding: 20px 17px;
+    border-radius: 15px;
+  }
+
+  .about-card-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 1.35rem;
+  }
+
+  .about-card-content h3 {
+    font-size: 1.05rem;
+  }
+
+  .about-card-content p {
+    font-size: 0.88rem;
+    line-height: 1.8;
+  }
+
+  .about-bottom {
+    margin-top: 35px;
+    padding-top: 22px;
+  }
+
+  .about-bottom p {
+    font-size: 0.88rem;
+  }
+}
+
+/* ========================================
+   EXTRA SMALL MOBILE
+======================================== */
+
+@media screen and (max-width: 360px) {
+  .about-section {
+    padding: 55px 14px;
+  }
+
+  .about-card {
+    gap: 12px;
+    padding: 16px 13px;
+  }
+
+  .about-card-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .about-card-content h3 {
+    font-size: 0.98rem;
+  }
+
+  .about-card-content p {
+    font-size: 0.84rem;
+  }
+}
+
+/* ========================================
+   ACCESSIBILITY
+======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .about-card {
+    transition: none;
+  }
+
+  .about-card:hover {
+    transform: none;
+  }
+}
+

@@ -1,0 +1,137 @@
+
+.footer {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 60px 7% 20px;
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 50px;
+}
+
+.footer-logo {
+  display: inline-block;
+  color: #f8fafc;
+  font-size: 30px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.footer-logo span {
+  color: #38bdf8;
+}
+
+.footer-about p {
+  max-width: 380px;
+  color: #94a3b8;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  color: #f8fafc;
+  font-size: 17px;
+  margin: 5px 0 10px;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #38bdf8;
+  transform: translateX(4px);
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 45px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-bottom p {
+  color: #94a3b8;
+  font-size: 13px;
+  margin: 0;
+}
+
+.back-to-top {
+  color: #38bdf8;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.back-to-top:hover {
+  color: #7dd3fc;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .footer {
+    padding: 45px 6% 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .footer-about {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 15px;
+  }
+
+  .footer-about {
+    grid-column: 1 / -1;
+  }
+
+  .footer-links h3,
+  .footer-social h3 {
+    font-size: 15px;
+  }
+
+  .footer-links a,
+  .footer-social a {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
